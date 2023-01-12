@@ -1,0 +1,398 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
+// Navigation
+.navigation {
+  margin-top: 1rem;
+
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        display: inline-block;
+        a {
+          color: $color-black;
+          cursor: pointer;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+// Header
+
+.headerImage {
+  background-image: url("../../assets/Home-Hero-Image.jpg");
+  background-size: cover;
+  background-position: -12rem 0;
+  height: 30rem;
+}
+
+.headerMain {
+  margin-top: 5rem;
+  .headerHeadline {
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 300;
+      text-align: center;
+    }
+    margin-bottom: 1rem;
+  }
+  .decorationImage1 {
+    background-image: url("../../assets/Decoration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4rem;
+    // margin-left: 7rem;
+    width: 13rem;
+  }
+  .headerButtons {
+    padding-left: 2.5rem;
+    button {
+      background-color: white;
+      border: 1px solid black;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1.3rem;
+      height: 5rem;
+      width: 10rem;
+      &:first-of-type {
+        margin-right: 2rem;
+      }
+      a {
+        color: $color-black;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+// Three columns
+
+.threeColumns {
+  background-color: $color-yellow;
+  margin: 0.2rem 0;
+
+  .columnInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+    text-align: center;
+    h1 {
+      font-size: 3rem;
+      margin: 0.5rem 0;
+    }
+    h5 {
+      margin: 0.5rem 0;
+      text-transform: uppercase;
+    }
+  }
+}
+
+// Four steps
+
+.fourSteps {
+  margin-top: 2rem;
+  .fourStepsHeadline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .decorationImage2 {
+      background-image: url("../../assets/Decoration.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 4rem;
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+      width: 13rem;
+    }
+  }
+  .fourStepsSteps {
+    background-color: $color-grey;
+    .fourStepsStep {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 3rem 1rem;
+      text-align: center;
+      .fourStepsImage1 {
+        background-image: url("../../assets/Icon-1.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+        margin-left: 2rem;
+      }
+      .fourStepsImage2 {
+        background-image: url("../../assets/Icon-2.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+        margin-left: 2rem;
+      }
+      .fourStepsImage3 {
+        background-image: url("../../assets/Icon-3.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+        margin-left: 2rem;
+      }
+      .fourStepsImage4 {
+        background-image: url("../../assets/Icon-4.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+        margin-left: 2rem;
+      }
+    }
+  }
+  .fourStepsButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    button {
+      background-color: white;
+      border: 1px solid black;
+      cursor: pointer;
+      display: inline-block;
+      height: 6rem;
+
+      width: 12rem;
+      a {
+        color: $color-black;
+        font-size: 1.6rem;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+// About us
+
+.aboutUs {
+  margin-top: 2rem;
+  .aboutUsLeft {
+    background-color: $color-grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    padding: 5rem 5rem;
+    text-align: center;
+    .decorationImage3 {
+      background-image: url("../../assets/Decoration.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 4rem;
+
+      margin-top: 0.5rem;
+      width: 13rem;
+    }
+    p {
+      line-height: 2;
+    }
+    .aboutUsSignature {
+      background-image: url("../../assets/Signature.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 4rem;
+      margin-top: 1rem;
+      width: 8rem;
+      align-self: flex-end;
+    }
+  }
+  .aboutUsRight {
+    .aboutUsPhoto {
+      background-image: url("../../assets/People.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 30rem;
+    }
+  }
+}
+
+//WhoDoWeHelp
+
+.whoDoWeHelp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  .whoDoWeHelpHeadline {
+  }
+  .decorationImage4 {
+    background-image: url("../../assets/Decoration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4rem;
+    margin-top: 0.5rem;
+    width: 13rem;
+  }
+  .whoDoWeHelpNav {
+    ul {
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        cursor: pointer;
+        list-style: none;
+        margin: 0 4rem 2rem 4rem;
+        text-align: center;
+        border: 1px solid $color-white;
+        padding: 0.7rem;
+        &:first-of-type {
+          padding: 1.4rem 0.7rem 0.3rem 0.7rem;
+        }
+        &:last-of-type {
+          padding: 0.7rem 1.5rem;
+        }
+      }
+      .active {
+        border: 1px solid $color-grey;
+      }
+    }
+  }
+  .whoDoWeHelpDescription {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .whoDoWeHelpList {
+    .fundationMain {
+      border-bottom: 1px solid $color-grey;
+      padding: 1rem 0;
+      width: 100%;
+      .fundationHeader {
+        font-size: 1.2rem;
+      }
+      .fundationDesc {
+        font-size: 0.8rem;
+        padding-top: 1rem;
+      }
+      .fundationSubheader {
+        font-size: 0.8rem;
+        font-style: italic;
+      }
+    }
+  }
+  .showPages {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+    .showPagesButton {
+      background-color: $color-white;
+      border: 1px solid $color-white;
+      cursor: pointer;
+      height: 2.5rem;
+      margin: 0.5rem;
+      width: 1.5rem;
+    }
+    .activeButton {
+      background-color: $color-white;
+      border: 1px solid $color-grey;
+      cursor: pointer;
+      height: 2.5rem;
+      margin: 0.5rem;
+      width: 1.5rem;
+    }
+  }
+}
+
+// Contact
+
+.contact {
+  .contactImg {
+    background-image: url("../../assets/Background-Contact-Form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    height: 40rem;
+  }
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    .decorationImage5 {
+      background-image: url("../../assets/Decoration.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 4rem;
+      margin-top: 0.5rem;
+      width: 13rem;
+    }
+    form {
+      label {
+        font-size: 0.7rem;
+      }
+      input {
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom: 1px solid $color-grey;
+        margin-bottom: 1rem;
+        width: 90%;
+        &::placeholder {
+          opacity: 0.3;
+        }
+      }
+
+      textarea {
+        background-color: $color-white;
+        border: none;
+        border-bottom: 1px solid $color-grey;
+        cursor: pointer;
+        display: inline-block;
+        font-family: $font-base;
+        font-size: 0.8rem;
+        height: 4rem;
+        margin-top: 1rem;
+        overflow: hidden;
+        width: 100%;
+        &::placeholder {
+          opacity: 0.3;
+        }
+      }
+      input[type="submit"] {
+        background-color: $color-white;
+        border: 1px solid $color-black;
+        cursor: pointer;
+        display: inline-block;
+        height: 2rem;
+        margin-top: 1rem;
+        width: 5rem;
+      }
+    }
+  }
+}
+
+// Footer
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 2rem;
+  p {
+    font-size: 0.6rem;
+  }
+  .footerIcons {
+    display: flex;
+    justify-content: center;
+    .footerLogo {
+      height: 1rem;
+      margin-right: 0.5rem;
+    }
+  }
+}

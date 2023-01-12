@@ -5,13 +5,13 @@ class Home extends Component {
     render() {
         return (
             <>
-                {/*<Header />
+                <Header />
                 <ThreeColumns />
                 <FourSteps />
                 <AboutUs />
                 <WhoDoWeHelp />
                 <Contact />
-                <Footer />*/}
+                <Footer />
             </>
         );
     }
