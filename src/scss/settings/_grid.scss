@@ -1,0 +1,10 @@
+.row {
+  display: flex;
+  flex-flow: wrap;
+}
+
+@for $i from 1 through 16 {
+  .col-#{$i} {
+    width: ($i / 16) * 100%;
+  }
+}
