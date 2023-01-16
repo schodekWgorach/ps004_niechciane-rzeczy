@@ -45,13 +45,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     height: 4rem;
-    // margin-left: 7rem;
     width: 13rem;
   }
   .headerButtons {
     padding-left: 2.5rem;
     button {
-      background-color: white;
+      background-color: $color-white;
       border: 1px solid black;
       cursor: pointer;
       display: inline-block;
@@ -311,71 +310,6 @@
 
 // Contact
 
-.contact {
-  .contactImg {
-    background-image: url("../../assets/Background-Contact-Form.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.2;
-    height: 40rem;
-  }
-  .contactForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 7rem;
-    .decorationImage5 {
-      background-image: url("../../assets/Decoration.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: 4rem;
-      margin-top: 0.5rem;
-      width: 13rem;
-    }
-    form {
-      label {
-        font-size: 0.7rem;
-      }
-      input {
-        border-right: none;
-        border-left: none;
-        border-top: none;
-        border-bottom: 1px solid $color-grey;
-        margin-bottom: 1rem;
-        width: 90%;
-        &::placeholder {
-          opacity: 0.3;
-        }
-      }
-
-      textarea {
-        background-color: $color-white;
-        border: none;
-        border-bottom: 1px solid $color-grey;
-        cursor: pointer;
-        display: inline-block;
-        font-family: $font-base;
-        font-size: 0.8rem;
-        height: 4rem;
-        margin-top: 1rem;
-        overflow: hidden;
-        width: 100%;
-        &::placeholder {
-          opacity: 0.3;
-        }
-      }
-      input[type="submit"] {
-        background-color: $color-white;
-        border: 1px solid $color-black;
-        cursor: pointer;
-        display: inline-block;
-        height: 2rem;
-        margin-top: 1rem;
-        width: 5rem;
-      }
-    }
-  }
-}
 
 // Footer
 
