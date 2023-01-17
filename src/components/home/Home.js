@@ -10,7 +10,8 @@ import Navigation from "./Navigation";
 function Home() {
     return (
         <>
- {/*           <Navigation />*/}
+   {/*         <Logging />*/}
+            <Navigation />
             <Header />
             <ThreeColumns />
             <FourSteps />
