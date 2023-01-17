@@ -1,4 +1,3 @@
-import Home from "./components/Home";
 import Index from "./components/Home";
 
 function App() {
