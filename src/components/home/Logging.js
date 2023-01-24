@@ -9,11 +9,9 @@ class Logging extends Component {
                 <div className="col-10"></div>
                 <div className="loggingButtons col-5">
                     <button>
-                        <p> text</p>
                         <Link to="/logowanie">Zaloguj</Link>
                     </button>
                     <button>
-                        <p>text 2</p>
                         <Link to="/rejestracja">Załóż konto</Link>
                     </button>
                 </div>

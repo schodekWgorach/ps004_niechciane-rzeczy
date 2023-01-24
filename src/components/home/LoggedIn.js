@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class LoggedIn extends Component {
     state = {};
     render() {
@@ -10,5 +11,6 @@ class LoggedIn extends Component {
         );
     }
 }
+
 
 export default LoggedIn;

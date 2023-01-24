@@ -1,0 +1,174 @@
+@import "../settings/colors";
+
+// login
+
+.loginDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  h1 {
+    margin-bottom: 1rem;
+  }
+  .decorationImage6 {
+    background-image: url("../../assets/Decoration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4rem;
+    width: 13rem;
+  }
+  .loginForm {
+    background-color: $color-grey;
+    padding: 1.5rem 3rem;
+    width: 18rem;
+    label {
+      font-size: 0.7rem;
+    }
+    input[type="email"] {
+      background-color: $color-grey;
+      border-right: none;
+      border-left: none;
+      border-top: none;
+      border-bottom: 1px solid $color-black;
+      width: 100%;
+    }
+    input[type="password"] {
+      background-color: $color-grey;
+      border-right: none;
+      border-left: none;
+      border-top: none;
+      border-bottom: 1px solid $color-black;
+      width: 100%;
+    }
+  }
+  .loginButtons {
+    margin-top: 1rem;
+    button {
+      background-color: white;
+      cursor: pointer;
+      display: inline-block;
+      height: 2rem;
+
+      &:first-of-type {
+        border: none;
+        margin-right: 9rem;
+        width: 5rem;
+      }
+      &:last-of-type {
+        border: 1px solid black;
+        width: 5rem;
+      }
+      a {
+        color: $color-black;
+        text-decoration: none;
+        text-transform: none;
+      }
+    }
+  }
+}
+
+// register
+
+.registerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  h1 {
+    margin-bottom: 1rem;
+  }
+  .decorationImage7 {
+    background-image: url("../../assets/Decoration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4rem;
+    width: 13rem;
+  }
+  .registerForm {
+    background-color: $color-grey;
+    padding: 1.5rem 3rem;
+    width: 18rem;
+    label {
+      font-size: 0.7rem;
+    }
+    input[type="email"] {
+      background-color: $color-grey;
+      border-right: none;
+      border-left: none;
+      border-top: none;
+      border-bottom: 1px solid $color-black;
+      width: 100%;
+    }
+    input[type="password"] {
+      background-color: $color-grey;
+      border-right: none;
+      border-left: none;
+      border-top: none;
+      border-bottom: 1px solid $color-black;
+      width: 100%;
+    }
+  }
+  .registerButtons {
+    margin-top: 1rem;
+    button {
+      background-color: white;
+      cursor: pointer;
+      display: inline-block;
+      height: 2rem;
+
+      &:first-of-type {
+        border: none;
+        margin-right: 9rem;
+        width: 5rem;
+      }
+      &:last-of-type {
+        border: 1px solid black;
+        width: 5rem;
+      }
+      a {
+        color: $color-black;
+        text-decoration: none;
+        text-transform: none;
+      }
+    }
+  }
+}
+
+// logout
+
+.logoutDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+
+  h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 18rem;
+  }
+  .decorationImage8 {
+    background-image: url("../../assets/Decoration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4rem;
+    width: 13rem;
+  }
+  .logoutButton {
+    // margin-top: 1rem;
+    button {
+      background-color: white;
+      border: 1px solid black;
+      display: inline-block;
+      height: 2rem;
+      text-transform: uppercase;
+      width: 6rem;
+
+      a {
+        color: $color-black;
+        text-decoration: none;
+        text-transform: none;
+      }
+    }
+  }
+}
