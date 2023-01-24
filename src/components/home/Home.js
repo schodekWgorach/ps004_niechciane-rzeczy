@@ -6,18 +6,20 @@ import AboutUs from "./AboutUS";
 import WhoDoWeHelp from "./WhoDoWeHelp";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
+import Logging from "./Logging";
+import Contact from "./Contact";
 
 function Home() {
     return (
         <>
-   {/*         <Logging />*/}
+            <Logging />
             <Navigation />
             <Header />
             <ThreeColumns />
             <FourSteps />
             <AboutUs />
             <WhoDoWeHelp />
-           {/* <Contact />*/}
+            <Contact />
             <Footer />
         </>
     )};
