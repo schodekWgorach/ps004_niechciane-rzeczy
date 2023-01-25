@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 /src/assets/arch
+/inne
+
+/src/firebase.js
