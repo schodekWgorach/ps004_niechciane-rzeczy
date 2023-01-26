@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Navigation from "../Home/Navigation";
-import Logging from "../Home/Logging";
+import Navigation from "../home/Navigation";
+import Logging from "../home/Logging";
 import { Link } from "react-router-dom";
 class Register extends Component {
     state = {
@@ -134,12 +134,12 @@ class Register extends Component {
                     </div>
                     <div className="registerButtons">
                         <button>
-                            <Link to="/logowanie">Zaloguj się</Link>
+                            <Link to="/logging">Zaloguj się</Link>
                         </button>
                         <button onClick={this.checkForm}>
-                            {/* <Link to="/rejestracja"> */}
+                            <Link to="/LoggedIn">
                             Załóż konto
-                            {/* </Link> */}
+                          </Link>
                         </button>
                     </div>
                 </div>
