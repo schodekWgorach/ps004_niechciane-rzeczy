@@ -105,7 +105,7 @@ class Login extends Component {
                     </div>
                     <div className="loginButtons">
                         <button>
-                            <Link to="/rejestracja">Załóż konto</Link>
+                            <Link to="/Register">Załóż konto</Link>
                         </button>
                         <button onClick={this.checkForm}>
                             {/* <Link to="/logowanie"> */}

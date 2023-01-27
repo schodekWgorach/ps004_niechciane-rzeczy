@@ -6,7 +6,7 @@ class LoggedIn extends Component {
     render() {
         return (
             <>
-                <h1>Home logged in</h1>
+                <h1>Home logged in i jest ok</h1>
             </>
         );
     }

@@ -13,7 +13,7 @@ class Logging extends Component {
                         <Link to="/Logging">Zaloguj</Link>
                     </button>
                     <button>
-                        <Link to="/Register">Załóż konto</Link>
+                        <Link to="/LoggedIl">Załóż konto</Link>
                     </button>
                 </div>
                 <div className="col-1"></div>

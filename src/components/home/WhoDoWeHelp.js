@@ -43,12 +43,16 @@ class WhoWeHelp extends Component {
                     <img src={decoration}/>
                     <div className='typesOfSupports flex-box'>
                         {organizacje.map((el, i) => (
-                            <button onClick={e => this.organizationButtonHandler(e, i)}className={ this.state.typeOfOrganization === i ? 'activeButton': '' }>{el.navName}</button>))}
+                            <button key={i}
+                                    onClick={e => this.organizationButtonHandler(e, i)}
+                                    className={ this.state.typeOfOrganization === i ? 'activeButton': '' }>
+                                    {el.navName}
+                            </button>))}
                     </div>
                     <p>{actualOrganizations.description}</p>
                     <div className='organizations'>
                         {actualFoundations.map((el, i) => (
-                            <div className='organization flex-box'>
+                            <div className='organization flex-box' key={i}>
                                 <div>
                                     <h2>{el.name}</h2>
                                     <p>{el.mission}</p>
@@ -60,7 +64,14 @@ class WhoWeHelp extends Component {
                         ))}
                     </div>
                     <div className='pageNumbers'>
-                        {pages.map(el => <button onClick={e => this.pagesButtonHandler(e, el)} className={ this.state.page === el ? 'activeButton': '' }>{el}</button>)}
+                        {pages.map((el, index) =>{
+                            return (
+                                <button
+                                    key={index}
+                                    onClick={e => this.pagesButtonHandler(e, el)}
+                                    className={ this.state.page === el ? 'activeButton': '' }>{el}
+                                </button>)}
+                        )}
                     </div>
                 </section>
             </div>
