@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Navigation from "../Home/Navigation";
-import Logging from "../Home/Logging";
+import Navigation from "../home/Navigation";
+import Logging from "../home/Logging";
 import { Link } from "react-router-dom";
 
 class Logout extends Component {
