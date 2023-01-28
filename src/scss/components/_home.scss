@@ -208,21 +208,21 @@
 // About us
 
 .aboutUs {
-  margin-top: 2rem;
+  margin-top: 1rem;
+  height: auto;
   .aboutUsLeft {
     background-color: $color-grey;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 30rem;
-    padding: 5rem 5rem;
+    max-height: 50rem;
+    padding: 3rem 3rem;
     text-align: center;
     .decorationImage3 {
       background-image: url("../../assets/Decoration.svg");
       background-repeat: no-repeat;
       background-size: contain;
       height: 4rem;
-
       margin-top: 0.5rem;
       width: 13rem;
     }
@@ -233,7 +233,7 @@
       background-image: url("../../assets/Signature.svg");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 4rem;
+      height: 5rem;
       margin-top: 1rem;
       width: 8rem;
       align-self: flex-end;
@@ -244,7 +244,7 @@
       background-image: url("../../assets/People.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 30rem;
+      height: 50rem;
     }
   }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+/*to jest zarejstrowane */
 
 class LoggedIn extends Component {
     state = {};

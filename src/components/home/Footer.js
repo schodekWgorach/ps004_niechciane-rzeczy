@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import facebook from "../../assets/Facebook.svg";
+import instagram from "../../assets/Instagram.svg";
 
 class Footer extends Component {
     state = {};
@@ -13,20 +15,20 @@ class Footer extends Component {
                     <div className="col-5"></div>
                     <div className="footerIcons col-1">
                         <div className="footerFacebook">
-                            <a href="https://www.facebook.com" target="_blank">
+                            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
                                 <img
                                     className="footerLogo"
-                                    src={require("../../assets/Facebook.svg")}
-                                    alt="facebook"
+                                    src={facebook}
+                                    alt={facebook}
                                 />
                             </a>
                         </div>
                         <div className="footerInstagram">
-                            <a href="https://www.instagram.com" target="_blank">
+                            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
                                 <img
                                     className="footerLogo"
-                                    src={require("../../assets/Instagram.svg")}
-                                    alt="instagram"
+                                    src={instagram}
+                                    alt={instagram}
                                 />
                             </a>
                         </div>
