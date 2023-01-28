@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 
+
+
 class Logging extends Component {
     state = {};
     render() {
@@ -10,10 +12,10 @@ class Logging extends Component {
                 <div className="col-10"></div>
                 <div className="loggingButtons col-5">
                     <button>
-                        <Link to="/Logging">Zaloguj</Link>
+                        <Link to="/logowanie">Zaloguj</Link>
                     </button>
                     <button>
-                        <Link to="/LoggedIl">Załóż konto</Link>
+                        <Link to="/rejstracja">Załóż konto</Link>
                     </button>
                 </div>
                 <div className="col-1"></div>

@@ -34,7 +34,7 @@ class FourSteps extends Component {
                         <div className="fourStepsImage4"></div>
                         <h5>Zamów kuriera</h5>
                         <h5>_______________</h5>
-                        <h5>kurier przyjedzie w dogodnym terminie</h5>
+                        <h5>kurier przyjedzie w dogodnym terminie   </h5>
                     </div>
                     <div className="col-3"></div>
                 </div>
