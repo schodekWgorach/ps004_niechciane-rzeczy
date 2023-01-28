@@ -10,9 +10,10 @@ class AboutUs extends Component {
                         <h3>O nas</h3>
                         <div className="decorationImage3"></div>
                         <p>
-                            Integer id felis ut lacus dignissim suscipit in ut quam. Sed
-                            tempus et eros at imperdiet. Nulla facilisi. Integer suscipit
-                            fringilla sapien pretium aliquam. Morbi eleifend lobortis nisi.
+                            Fundación Capital works to improve the economic and financial lives of people living
+                            in social vulnerability around the world, partnering with
+                            governments and the private sector to design and deliver solutions
+                            that increase economic prospects for millions.
                         </p>
                         <div className="aboutUsSignature"></div>
                     </div>

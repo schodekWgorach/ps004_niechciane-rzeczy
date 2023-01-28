@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import decoration from '../../assets/Decoration.svg';
 import data from '../../assets/fundacje.json';
 
+
 let organizacje = data.organizations;
 
 class WhoWeHelp extends Component {
@@ -37,11 +38,11 @@ class WhoWeHelp extends Component {
             actualFoundations[i] = foundations[(this.state.page - 1)+i];
         }
         return (
-            <div className='flex-box whoWeHelp_Container'>
+            <div className='flex-box whoDoWeHelp'>
                 <section className='whoWeHelp flex-box' id='HomeWhoWeHelp'>
                     <h1>Komu pomagamy?</h1>
-                    <img src={decoration}/>
-                    <div className='typesOfSupports flex-box'>
+                    <img src={decoration} alt='decoration' className='whoDoWeHelp_decorationImage4'/>
+                    <div className='whoDoWeHelpDescription flex-box'>
                         {organizacje.map((el, i) => (
                             <button key={i}
                                     onClick={e => this.organizationButtonHandler(e, i)}
@@ -63,7 +64,7 @@ class WhoWeHelp extends Component {
                             </div>
                         ))}
                     </div>
-                    <div className='pageNumbers'>
+                    <div className='headerButtons_button headerMain_headerButtons'>
                         {pages.map((el, index) =>{
                             return (
                                 <button
