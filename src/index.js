@@ -6,9 +6,6 @@ import './scss/main.scss';
 import Logging from "./components/home/Logging";
 import LoggedIn from "./components/home/LoggedIn";
 
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
       <BrowserRouter>

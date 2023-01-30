@@ -3,6 +3,7 @@
 .row {
   display: flex;
   flex-flow: wrap;
+  justify-content: center;
 }
 
 @for $i from 1 through 16 {
