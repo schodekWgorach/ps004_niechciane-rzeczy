@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import Navigation from "../home/Navigation";
 import Logging from "../home/Logging";
 import { Link } from "react-router-dom";
+
 class Register extends Component {
+
     state = {
         email: "",
         password: "",
@@ -134,10 +136,10 @@ class Register extends Component {
                     </div>
                     <div className="registerButtons">
                         <button>
-                            <Link to="/logging">Zaloguj się</Link>
+                            <Link to="/logowanie">Zaloguj się</Link>
                         </button>
                         <button onClick={this.checkForm}>
-                           <Link to="/LoggedIn">
+                           <Link to="/rejstracja">
                             Załóż konto
                           </Link>
                         </button>

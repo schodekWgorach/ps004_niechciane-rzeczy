@@ -79,6 +79,7 @@
   }
   .headerButtons {
     padding-left: 2.5rem;
+    text-align: center;
     button {
       background-color: $color-white;
       border: 1px solid black;
@@ -97,6 +98,10 @@
       }
     }
   }
+}
+
+.flex-box{
+  flex: max-content;
 }
 
 // Three columns
@@ -142,12 +147,13 @@
   }
   .fourStepsSteps {
     background-color: $color-grey;
+    min-width: 20px;
     .fourStepsStep {
       display: flex;
       flex-direction: column;
       justify-content: center;
       padding: 3rem 1rem;
-      text-align: center;
+      text-align: justify;
       .fourStepsImage1 {
         background-image: url("../../assets/Icon-1.svg");
         background-repeat: no-repeat;
@@ -191,6 +197,10 @@
         width: 50%;
         margin-left: auto;
         margin-right: auto;
+        h5{
+          padding-left:0.6rem;
+          padding-right:0.6rem;
+        }
       }
     }
   }
