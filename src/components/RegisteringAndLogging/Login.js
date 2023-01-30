@@ -1,7 +1,9 @@
 import React, { Component } from "react";
-/*import Navigation from "../home/Navigation";*/
+import Navigation from "../home/Navigation";
 import Logging from "../home/Logging";
 import { Link } from "react-router-dom";
+
+
 class Login extends Component {
     state = {
         email: "",
@@ -59,7 +61,7 @@ class Login extends Component {
                     <div className="col-6"></div>
                     <div className="col-10">
                         <Logging />
-              {/*          <Navigation />*/}
+                        <Navigation />
                     </div>
                 </div>
                 <div className="loginDiv">
@@ -105,12 +107,12 @@ class Login extends Component {
                     </div>
                     <div className="loginButtons">
                         <button>
-                            <Link to="/Logging">Załóż konto</Link>
+                            <Link to="/loggedIn">Załóż konto</Link>
                         </button>
                         <button onClick={this.checkForm}>
-{/*                             <Link to="/logowanie">
+                             <Link to="/logging">
                             Zaloguj się
-                             </Link>*/}
+                             </Link>
                         </button>
                     </div>
                 </div>
