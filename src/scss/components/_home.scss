@@ -154,7 +154,10 @@
         background-size: contain;
         height: 4rem;
         margin-bottom: 0.5rem;
-        margin-left: 2rem;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
       }
       .fourStepsImage2 {
         background-image: url("../../assets/Icon-2.svg");
@@ -162,7 +165,10 @@
         background-size: contain;
         height: 4rem;
         margin-bottom: 0.5rem;
-        margin-left: 2rem;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
       }
       .fourStepsImage3 {
         background-image: url("../../assets/Icon-3.svg");
@@ -170,7 +176,10 @@
         background-size: contain;
         height: 4rem;
         margin-bottom: 0.5rem;
-        margin-left: 2rem;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
       }
       .fourStepsImage4 {
         background-image: url("../../assets/Icon-4.svg");
@@ -178,7 +187,10 @@
         background-size: contain;
         height: 4rem;
         margin-bottom: 0.5rem;
-        margin-left: 2rem;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
