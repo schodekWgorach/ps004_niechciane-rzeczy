@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-/*to jest zarejstrowane */
+/*to jest zarejestrowane */
 
 class LoggedIn extends Component {
     state = {};
     render() {
         return (
             <>
-                <h1>Home logged in i jest ok</h1>
+                <h5>Home logged In</h5>
             </>
         );
     }
