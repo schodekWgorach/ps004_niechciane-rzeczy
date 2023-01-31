@@ -139,7 +139,7 @@ class Register extends Component {
                             <Link to="/logowanie">Zaloguj się</Link>
                         </button>
                         <button onClick={this.checkForm}>
-                           <Link to="/rejstracja">
+                           <Link to="/rejestracja">
                             Załóż konto
                           </Link>
                         </button>
